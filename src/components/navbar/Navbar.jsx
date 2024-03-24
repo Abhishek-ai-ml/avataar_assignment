@@ -126,7 +126,7 @@ const Navbar = () => {
 
             <div className='navbar-items-search-section'>
                 <HiOutlineSearch size={20}/>
-                <div>Search something</div>
+                <input type='text' placeholder='Search Something'/>
             </div>
         </div>
     </div>

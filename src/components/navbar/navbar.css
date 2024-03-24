@@ -108,6 +108,13 @@
     padding-top: 12px;
 }
 
+input {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    width: 100%;
+}
 @media screen and (max-width: 850px) {
     .navbar-logo-section-text {
         display: none;
