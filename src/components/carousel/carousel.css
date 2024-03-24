@@ -134,6 +134,14 @@
 }
 
 .carousel-center-image div {
+    display: none;
+}
+
+.carousel-center-image img:hover {
+    cursor: pointer;
+}
+
+.carousel-center-image:hover div {
     width: 98%;
     position: absolute;
     bottom: 2px;
@@ -145,6 +153,8 @@
     border-bottom-right-radius: 25px;
     padding-top: 8px;
     padding-bottom: 8px;
+    cursor: pointer;
+    display: block;
 }
 
 @media screen and (min-width:320px) and (max-width:600px) {
